@@ -1,0 +1,32 @@
+.component{
+    color: black;
+    background-color: #EEF2FF;
+    padding-bottom: 50px;
+}
+
+.landCont{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    font-size: 2rem;
+    background-color: #EEF2FF;
+}
+
+.heading{ 
+    padding-bottom: 30px;
+    
+}
+
+
+@media screen and (max-width: 800px){
+    .titleDiv{
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .heading{
+        padding: 20px;
+    }
+}

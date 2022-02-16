@@ -1,0 +1,52 @@
+.header{
+    display: "inline";
+    justify-content: space-between;
+    background-color: #141E61;
+    color: white;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 20px;
+}
+
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.headerScroll{
+    background-color: #343a40;
+}
+
+
+.titleSpan{
+    margin-right: auto;
+    font-size: 24px;
+}
+.span{
+    margin: 20px;
+}
+
+
+.linkDiv{
+    margin-top: 5px;
+}
+
+
+.navLink{
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+.navLink:hover{
+    color: #E7E0C9
+}
+
+
+
