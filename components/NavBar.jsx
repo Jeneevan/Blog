@@ -20,14 +20,9 @@ const Links = [
 ]
 
 function NavBar() {
-  const [scroll, setScroll] = useState(false)
-
-  function handleScroll(){
-    setScroll(!scroll)
-  }
   
   return (
-    <header className={classes.header} onScroll={handleScroll}>
+    <header className={classes.header}>
       <nav className={classes.nav}>
         
         <div className={classes.titleSpan}>
