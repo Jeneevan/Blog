@@ -18,3 +18,14 @@ a {
   box-sizing: border-box;
 }
 
+.linkTag{
+  font-size: 1.1rem;
+  color: black;
+}
+
+.linkTag:hover{
+  color: purple;
+  font-weight: bold;
+}
+
+

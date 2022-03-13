@@ -5,17 +5,22 @@ const Links = [
   {
     id: 1,
     text: "Home",
-    url: "#home"
+    url: "/#home"
 },
 {
   id: 2,
   text: "About",
-  url: "#why"
+  url: "/#why"
 },
 {
   id: 3,
   text: "Blogs",
-  url: "#blogs"
+  url: "/#blogs"
+},
+{
+  id: 4,
+  text: "Login",
+  url: "/login"
 }
 ]
 
